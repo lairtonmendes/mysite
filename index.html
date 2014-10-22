@@ -109,8 +109,22 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Entre em contato.</h2>
-                <p>Em breve! <br>
-                Formulario de contato!</p>
+                <!-- Formulário de envio de e-mails não fincional ainda-->
+                <form name="formulario" action="#" method="post">
+                    <input type=hidden name="destino" value="lairton.mendes@gmail.com">
+                   
+                    <p>Nome:<br>
+                    <input type=text name="nome" size="45" style="background-color: transparent; border-radius: 10px"></p><br>
+                    <p>Email:<br>
+                    <input type=text name="email" size="45" style="background-color: transparent; border-radius: 10px"></p><br>
+                    <p>Assunto:<br>
+                    <input type=text name="assunto" size="45" style="background-color: transparent; border-radius: 10px"></p><br>
+                    <p>Mensagem:<br>
+                    <textarea name="Mensagem" rows="10" cols="60" wrap="virtual" style="background-color: transparent; border-radius: 10px"></textarea></p><br>
+                    <p><input type="submit" value="Enviar Email" class="btn btn-default btn-lg"> <input type="reset" value="Limpar Formulário" class="btn btn-default btn-lg"></p>
+                </form>
+
+
                 <p><a href="lairton:lairton.mendes@gmail.com">lairton.mendes@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
